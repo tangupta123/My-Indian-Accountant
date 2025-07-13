@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accounting Services USA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./carousel.css" />
+    <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+
+    <header class="hero-header">
+        <h1 class="hero-title">My Indian Accountant</h1>
+        <p class="hero-subtitle">Your trusted finance & compliance partner in the USA</p>
+    </header>
+
+    <!-- <header>
+        <h1>Trusted Accounting Services in the USA</h1>
+        <p>Outsource your accounting needs to experts you can rely on.</p>
+    </header> -->
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about-section">
+        <h2>About us</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <img src="./assets/images/3-taj-mahal-1.webp" alt="Service 1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere massa.</p>
+            </div>
+            <div class="about-card">
+                <img src="./assets/images/3-taj-mahal-1.webp" alt="Service 2">
+                <p>Curabitur id dui a erat tincidunt posuere. Fusce convallis sem vitae justo consequat.</p>
+            </div>
+            <div class="about-card">
+                <img src="./assets/images/3-taj-mahal-1.webp" alt="Service 3">
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Bookkeeping</h3>
+                <p>Maintain accurate and timely financial records with our professional bookkeeping services.</p>
+            </div>
+            <div class="card">
+                <h3>Payroll Processing</h3>
+                <p>Seamless payroll management tailored to U.S. compliance standards.</p>
+            </div>
+            <div class="card">
+                <h3>Accounts Payable</h3>
+                <p>Ensure timely vendor payments with our dedicated AP support team.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="why">
+        <h2>Why Choose Us</h2>
+        <div class="why">
+            <div class="card">
+                <h3>US-Focused Experts</h3>
+                <p>Team trained specifically on U.S. accounting laws and compliance.</p>
+            </div>
+            <div class="card">
+                <h3>Quick Turnaround</h3>
+                <p>We ensure your books are updated on time, every time.</p>
+            </div>
+            <div class="card">
+                <h3>Cost-Effective</h3>
+                <p>Save over 40% compared to in-house accounting teams.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials">
+            <div class="card">
+                <blockquote>"Finsmart helped streamline our payroll process. Highly recommend!"</blockquote>
+                <p>- Mark T., Florida</p>
+            </div>
+            <div class="card">
+                <blockquote>"Professional, reliable, and affordable accounting services."</blockquote>
+                <p>- Sarah D., New York</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="carousel30">
+        <div class="carousel30-wrapper">
+            <button class="carousel30-btn prev">&#10094;</button>
+            <div class="carousel30-track">
+                <img src="./assets/images/3-taj-mahal-1.webp" alt="Image 1" />
+                <img src="./assets/images/finsmart-img-1.webp" alt="Image 2" />
+                <img src="./assets/images/service-img-1-2-1.webp" alt="Image 3" />
+                <img src="./assets/images/3-taj-mahal-1.webp" alt="Image 4" />
+                <img src="./assets/images/finsmart-img-1.webp" alt="Image 5" />
+            </div>
+            <button class="carousel30-btn next">&#10095;</button>
+        </div>
+    </section>
+
+
+    <section id="contact" class="hide">
+        <h2>Contact Us</h2>
+        <form onsubmit="handleSubmit(event)">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Finsmart USA. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function handleSubmit(e) {
+            e.preventDefault();
+            alert('Thank you for contacting us. We will reach out shortly!');
+        }
+    </script>
+    <script src="./carousel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+#carousel30 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 3rem auto;
+}
+
+.carousel30-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.carousel30-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding: 1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel30-track img {
+  flex: 0 0 30%;
+  scroll-snap-align: start;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.carousel30-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 2rem;
+  border: none;
+  border-radius: 50%;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.carousel30-btn.prev { left: 10px; }
+.carousel30-btn.next { right: 10px; }
+
+@media (max-width: 768px) {
+  .carousel30-track img {
+    flex: 0 0 80%;
+  }
+}
