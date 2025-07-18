@@ -4,17 +4,61 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accounting Services USA</title>
+    <link rel="shortcut icon" href="./assets/images/main-logo.png" />
+    <title>MyIndianAccountant</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./carousel.css" />
     <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light nav-bar-custom fixed-top">
+        <img src="./assets/images/main-logo.png" />
+        <!-- <li class="nav-item active"> -->
+        <a class="nav-link dark-grey ml--20" href="#">Home <span class="sr-only">(current)</span></a>
+        <!-- </li> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav mr-0">
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Discover
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#services">Services</a>
+                        <a class="dropdown-item" href="#why">Why Us</a>
+                        <a class="dropdown-item" href="#testimonials">Testimonials</a>
+                        <a class="dropdown-item" href="#contact">Contact</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-custom-color btn-lg ml-3">Contact us</button>
+                </li>
+            </ul>
+
+
+        </div>
+    </nav>
+
     <header class="hero-header">
         <h1 class="hero-title">My Indian Accountant</h1>
-        <p class="hero-subtitle">Your trusted finance & compliance partner in the USA</p>
+        <p class="hero-subtitle dark-grey">Outsourced Accounting Solutions for US & UK Clients</p>
     </header>
 
     <!-- <header>
@@ -22,15 +66,24 @@
         <p>Outsource your accounting needs to experts you can rely on.</p>
     </header> -->
 
-    <nav>
-        <a href="#services">Services</a>
-        <a href="#why">Why Us</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
-    </nav>
 
-    <section id="about-section">
-        <h2>About us</h2>
+    <section class="about-section">
+        <div class="about-image">
+            <img src="./assets/images/3-taj-mahal-1.webp" alt="Our Team">
+        </div>
+        <div class="about-text">
+            <h2 class="all-titles">About Us</h2>
+            <p>
+               MyIndianAccountant is founded by Mohit Verma, a qualified Indian Chartered Accountant (equivalent to CPA), offering offshore bookkeeping and accounting services.<br />
+
+               We help CPA firms, bookkeeping practices, and small businesses in the US and UK streamline their financial operations with reliable, secure, and cost-effective support from India.
+
+            </p>
+        </div>
+    </section>
+
+    <section id="about-section2">
+        <h2 class="all-titles">Our Clients</h2>
         <div class="about-grid">
             <div class="about-card">
                 <img src="./assets/images/3-taj-mahal-1.webp" alt="Service 1">
@@ -49,43 +102,93 @@
 
 
     <section id="services">
-        <h2>Our Services</h2>
+        <h2 class="all-titles">Our Services</h2>
         <div class="services">
             <div class="card">
                 <h3>Bookkeeping</h3>
-                <p>Maintain accurate and timely financial records with our professional bookkeeping services.</p>
+                <p>Bookkeeping (QuickBooks Online/Desktop)</p>
             </div>
             <div class="card">
-                <h3>Payroll Processing</h3>
-                <p>Seamless payroll management tailored to U.S. compliance standards.</p>
+                <h3><-Heading-></h3>
+                <p>Accounts Payable & Receivable Management</p>
             </div>
             <div class="card">
-                <h3>Accounts Payable</h3>
-                <p>Ensure timely vendor payments with our dedicated AP support team.</p>
+                <h3><-Heading-></h3>
+                <p>Bank & Credit Card Reconciliations</p>
+            </div>
+            <div class="card">
+                <h3><-Heading-></h3>
+                <p>Month-End Close & Financial Reporting</p>
+            </div>
+            <div class="card">
+                <h3><-Heading-></h3>
+                <p>Payroll Support</p>
+            </div>
+            <div class="card">
+                <h3><-Heading-></h3>
+                <p>Catch-Up & Clean-Up Bookkeeping</p>
+            </div>
+             <div class="card">
+                <h3><-Heading-></h3>
+                <p>Year-End Tax Support</p>
             </div>
         </div>
     </section>
 
     <section id="why">
-        <h2>Why Choose Us</h2>
+        <h2 class="all-titles">Why Choose Us</h2>
         <div class="why">
             <div class="card">
-                <h3>US-Focused Experts</h3>
-                <p>Team trained specifically on U.S. accounting laws and compliance.</p>
+                <h3><-Heading-></h3>
+                <p>Led by a Chartered Accountant with 6+ years MNC experience</p>
             </div>
             <div class="card">
-                <h3>Quick Turnaround</h3>
-                <p>We ensure your books are updated on time, every time.</p>
+                <h3><-Heading-></h3>
+                <p>QuickBooks Certified ProAdvisors</p>
             </div>
             <div class="card">
-                <h3>Cost-Effective</h3>
-                <p>Save over 40% compared to in-house accounting teams.</p>
+                <h3><-Heading-></h3>
+                <p>Secure systems with strict confidentiality   </p>
+            </div>
+             <div class="card">
+                <h3><-Heading-></h3>
+                <p>Direct communication – no BPO middlemen   </p>
+            </div>
+             <div class="card">
+                <h3><-Heading-></h3>
+                <p>1-month free trial – try us risk-free   </p>
+            </div>
+        </div>
+    </section>
+
+     <section id="client-benefits">
+        <h2 class="all-titles">Client Benefits</h2>
+        <div class="why">
+            <div class="card">
+                <h3><-Heading-></h3>
+                <p>Reduce overhead and hiring challenges</p>
+            </div>
+            <div class="card">
+                <h3><-Heading-></h3>
+                <p>Focus on growing your practice</p>
+            </div>
+            <div class="card">
+                <h3><-Heading-></h3>
+                <p>High-quality, timely bookkeeping   </p>
+            </div>
+             <div class="card">
+                <h3><-Heading-></h3>
+                <p>Smooth onboarding and support   </p>
+            </div>
+             <div class="card">
+                <h3><-Heading-></h3>
+                <p>Tailored engagement models   </p>
             </div>
         </div>
     </section>
 
     <section id="testimonials">
-        <h2>What Our Clients Say</h2>
+        <h2 class="all-titles">What Our Clients Say</h2>
         <div class="testimonials">
             <div class="card">
                 <blockquote>"Finsmart helped streamline our payroll process. Highly recommend!"</blockquote>
@@ -124,10 +227,24 @@
         </form>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Finsmart USA. All rights reserved.</p>
-    </footer>
+    <!-- <footer>
+        <p>&copy; 2025 MyIndianAccountant INDIA. All rights reserved.</p>
+    </footer> -->
 
+    <footer>
+    <div class="footer-content">
+      <div class="footer-contact">
+        📞 <a href="tel:+911234567890">+91 83739 47751</a> |
+        📧 <a href="mailto:info@myindianaccountant.com">connect@myindianaccountant.com</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2025 MyIndianAccountant India. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- SCRIPTS -->
     <script>
         function handleSubmit(e) {
             e.preventDefault();
@@ -135,6 +252,22 @@
         }
     </script>
     <script src="./carousel.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- SCRIPTS -->
 </body>
 
 </html>
+
+
+<!-- generate logo for My Indian Accountant -->
+
+
+<!-- color - #5c071c, minimalist style, professional logo for website -->

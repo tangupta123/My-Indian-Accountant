@@ -35,7 +35,7 @@
   z-index: 2;
   background: rgba(0,0,0,0.5);
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
   border: none;
   border-radius: 50%;
   padding: 0.5rem 1rem;
@@ -48,5 +48,8 @@
 @media (max-width: 768px) {
   .carousel30-track img {
     flex: 0 0 80%;
+  }
+  .carousel30-btn {
+    font-size: 1rem;
   }
 }
